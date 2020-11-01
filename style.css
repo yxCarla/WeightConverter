@@ -1,0 +1,140 @@
+@media only screen and (min-width: 811px) {
+    h1 {
+        text-align: center;
+        color: #ffb700;
+        font-size: 8vh;
+        font-family: 'Economica';
+    }
+
+    #info {
+        text-align: center;
+        font-size: 3.6vh;
+        font-family: 'Economica';
+    }
+
+    #main {
+        width: fit-content;
+        height: fit-content;
+        margin: 4vh auto 0 auto;
+        background-color: #f4a743;
+    }
+
+    #choices {
+        font-size: 2.7vh;
+        font-family: 'Source Code Pro';
+        text-align: center;
+        padding: 2vh;
+    }
+
+    .button {
+        margin-top: 1.4vh;
+        background-color: #ffb700;
+        font-family: 'Source Code Pro';
+        cursor: pointer;
+        user-select: none;
+        font-size: 2.1vh;
+        
+    }
+
+    #weight_buttons {
+        margin-left: inherit;
+        margin-right: inherit;
+        width: fit-content;
+        padding-bottom: 4vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    #input_div {
+        width: fit-content;
+        margin: 1vh auto 0 auto;
+    }
+
+    .output {
+        font-family: 'Source Code Pro';
+    }
+
+    #outputs {
+        width: fit-content;
+        margin: 1vh auto 0 auto;
+        padding-bottom: 4vh;
+    }
+
+    #footer_info {
+        color: #b38b09;
+        font-size: 2.3vh;
+        font-family: 'Source Code Pro';
+        text-align: center;
+        padding-bottom: 3vh;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    h1 {
+        text-align: center;
+        color: #ffb700;
+        font-size: 7vh;
+        font-family: 'Economica';
+    }
+
+    #info {
+        text-align: center;
+        font-size: 3.6vh;
+        font-family: 'Economica';
+    }
+
+    #main {
+        width: fit-content;
+        height: fit-content;
+        margin: 3vh auto 0 auto;
+        background-color: #f4a743;
+    }
+
+    #choices {
+        font-size: 2.4vh;
+        font-family: 'Source Code Pro';
+        text-align: center;
+        padding: 2vh;
+    }
+
+    .button {
+        margin-top: 1.2vh;
+        background-color: #ffb700;
+        font-family: 'Source Code Pro';
+        cursor: pointer;
+        user-select: none;
+        font-size: 1.3vh;
+    }
+
+    #weight_buttons {
+        margin-left: inherit;
+        margin-right: inherit;
+        width: fit-content;
+        padding-bottom: 2vh;
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+
+    #input_div {
+        width: fit-content;
+        margin: 1vh auto 0 auto;
+    }
+
+    .output {
+        font-family: 'Source Code Pro';
+    }
+
+    #outputs {
+        width: fit-content;
+        margin: 1vh auto 0 auto;
+        padding-bottom: 2vh;
+    }
+
+    #footer_info {
+        color: #b38b09;
+        font-size: 2.3vh;
+        font-family: 'Source Code Pro';
+        text-align: center;
+        padding-bottom: 2vh;
+    }
+}
