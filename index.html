@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Weight Conversions</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="wdith=device-width, initial-scale=1.0">
+        <meta name="description" content="A converter for common measurement of weight units">
+        <meta name="author" content="yxCarla">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Economica" rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Source Code Pro" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <body onload="hideAll()">
+        <h1>Measurements of Weight Converter</h1>
+        <div id="info">Converts gram, kilogram, metric ton, pound, and ounce</div>
+        <div id="main">
+            <div id="choices">
+                What is your starting unit?
+            </div>
+            <div id="weight_buttons">
+                <button class="button" onclick="chosenGram()">Gram</button>
+                <button class="button" onclick="chosenKilogram()">Kilogram</button>
+                <button class="button" onclick="chosenMT()">Metric Ton</button>
+                <button class="button" onclick="chosenPound()">Pound</button>
+                <button class="button" onclick="chosenOunce()">Ounce</button>
+            </div>
+            <div id="input_div">
+                <input type="number" id="gram_starting" oninput="convertNoGram(this.value)" placeholder="Gram">
+                <input type="number" id="kilogram_starting" oninput="convertNoKilogram(this.value)" placeholder="Kilogram">
+                <input type="number" id="mt_starting" oninput="convertNoMT(this.value)" placeholder="Metric Ton">
+                <input type="number" id="pound_starting" oninput="convertNoPound(this.value)" placeholder="Pound">
+                <input type="number" id="ounce_starting" oninput="convertNoOunce(this.value)" placeholder="Ounce">
+            </div>
+            <div id="outputs">
+                <div class="output" id="gram_output">Gram: </div>
+                <div class="output" id="kilogram_output">Kilogram: </div>
+                <div class="output" id="mt_output">Metric Ton: </div>
+                <div class="output" id="pound_output">Pound: </div>
+                <div class="output" id="ounce_output">Ounce: </div>
+            </div>
+            <div id="footer_info">
+                
+            </div>
+        </div>
+    </body>
+</html>
